@@ -27,29 +27,29 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 ## Schema ##
 ### Executive Summary ###
-Programmatic has made dynamic media a reality, with individual ad placements chosen based on an avalanche of data. While to date, data has been mostly used to inform the media components of the ad, ad tech’s embrace of the creative half of the ad equation is exploding, reflecting marketer’s desire to bring the best technology forward to optimize the right message part of the holy trinity of right message, right person, right place & time with “dynamic” creative.
+Programmatic has made dynamic media a reality, with individual ad placements chosen based on an avalanche of data. While to date, data has been mostly used to inform the media components of the ad, ad tech’s embrace of the creative half of the ad equation is exploding, reflecting marketer’s desire to bring the best technology forward to optimize the right message as part of the holy trinity of right message, right person, right place & time with “dynamic” creative.
 
 The need is coming from agencies and brands under two major requirements:
 
-* Desire to optimize content advertising on social media and other content distribution platforms. In this environment, it quickly becomes overwhelming for an agency to create the myriad versions of the same content necessary to cover multiple platforms.  Often, this is as simple as a headline, key visual, disclosure, brand ID, and a call to action—yet varying specs can make versioning onerous to say the least.
+* Desire to optimize content advertising on social media and other content distribution platforms. In this environment, it quickly becomes overwhelming for an agency to create the myriad versions of the same content necessary to cover multiple platforms.  Often, this is as simple as a headline, key visual, disclosure, brand ID and a call to action—yet varying specs can make versioning onerous to say the least.
 * The other need has been that marketers are recognizing the need for “in-the moment” messaging where getting the right message at the right time to the user could significantly influence purchase decisions.
 
 Media targeting has gotten much, much better, but creative has barely evolved. A leap forward was made with version one of dynamic creative optimization, but last generation DCO was limited by the need to create multiple finished ads (that were dynamically served based on decision engines, not dynamically created).
 
 Recently, however, the groundwork has been laid for a massive leap forward in truly dynamic advertising as marketers’ ability to create more distinct commercial options and creative assets catches up with ad tech’s ability to target, render, and serve them.
 
-Dynamic Content Ad Standard aims to address this opportunity driving the demand for Dynamic Ad Component standards.
+Dynamic Content Ad Standard aims to address this opportunity, driving the demand for Dynamic Ad Component standards.
 Of perhaps equal importance to the ad ops and ad tech communities, robust standards will create a foundation for development and implementation that will lead to faster, easier adoption and the freeing up of resources for innovation.
 
 ### Introduction ###
-Dynamic Ad content standards is a structured system of meta-data for creative components and asset variations of the creative components that may be used in an advertisement. It also defines a standard delivery structure that is extensible for custom asset types.
+The Dynamic Content Ads standard is a structured system of meta-data for creative components and asset variations of the creative components that may be used in an advertisement. It also defines a standard delivery structure that is extensible for custom asset types.
 The specification as defined is agnostic of the technology used. But is delivered with a JSON schema.
-The standard is generic enough that it can be applied to any type of ad format. But specific use case is for dynamic creative optimization and serving real time personalized creative based on available user, context and other advertising targeting data.
+The standard is generic enough that it can be applied to any type of ad format, but the specific use case is for dynamic creative optimization and serving real time personalized creative based on available user, context and other advertising targeting data.
 The standard defines all the creative assets that can be used in an ad creative as well as creative groupings.
 ### Version 1.0 Scope ###
-The scope for Version 1.0 of Dynamic Content Ads standards will be limited to Ad units that do not have complex rich media components like expansion, multiple interactive or user engagement elements and do not require complex layouts.
+The scope for Version 1.0 of Dynamic Content Ads standard will be limited to ad units that do not have complex rich media components like expansion, multiple interactive or user engagement elements and do not require complex layouts.
 The following type of ad units are in scope:
-* Static or single layer creative  Ad units 
+* Static or single layer creative ad units 
 * Ad units with with images and texts
 * Ad Units with simple animation using core HTML5 technologies like CSS or JS or SVG
 * Ad Units with single Video engagement that plays in banner
